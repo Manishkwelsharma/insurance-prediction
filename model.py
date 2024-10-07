@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
 
 # Load and preprocess the dataset
-data = pd.read_csv("D:\projects\orison_tech\Regression\insurance_data.csv")
+data = pd.read_csv("D://projects//orison_tech//Regression//insurance_data.csv")
 
 # Round the 'Premium' column to the nearest integer
 data['Premium'] = data['Premium'].round(0).astype(int)
