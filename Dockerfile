@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8502
 
 # Command to run the Streamlit app
-CMD ["streamlit", "run", "model.py", "--server.port=8080", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8502", "--server.address=0.0.0.0"]
